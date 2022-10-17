@@ -1,4 +1,7 @@
-/* Adyacent sibling, como llamarlo */
-h2 + p {
+/* General sibling, como llamarlo
+Significa, aplicale esta regla a toda etiqueta que este en la misma
+linea, como hermanos h2*/
+h2 ~ p {
     color: red;
 }
+
