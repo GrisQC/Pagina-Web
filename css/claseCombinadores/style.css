@@ -1,0 +1,4 @@
+/* Adyacent sibling, como llamarlo */
+h2 + p {
+    color: red;
+}
