@@ -1,0 +1,17 @@
+/* Como seleccionar un elemento y agregarle un estilo */
+/* Por el elemento/por la etiqueta */
+p{
+    color: blue;
+    font-size: 30px;
+}
+
+/* Por la clase, empieza con un punto*/
+.parrafo {
+color: rebeccapurple;
+}
+
+/* Por el ID, emepieza con un numeral */
+#texto{
+    color: yellow;
+    font-size: 60px;
+}

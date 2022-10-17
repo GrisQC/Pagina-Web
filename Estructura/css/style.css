@@ -1,0 +1,10 @@
+img{
+    max-width: 200px;
+    align-content: center;
+    border: 1;
+    border-color: brown;
+}
+figcaption{
+    color: blue;
+    font-size: medium;
+}
