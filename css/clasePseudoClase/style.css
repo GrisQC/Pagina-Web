@@ -1,0 +1,31 @@
+.main-nav{
+    margin-top: 10px;
+    /* Quita las decoraciones a una lista */
+    list-style: none;
+    /* Dimension interna que se le da */
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+.main-nav__item{
+    display: inline-block;
+    /* background-color: blue; */
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/* Pseudo Clases - Hover, en cuanto el mause se acerque cambia de color */
+.main-nav__item a:hover {
+    color:blue;
+}
+/* El texto cambia de color cuando haces click sobre el */
+.main-nav__item a:active {
+    color: red;
+}
+/* Pseudo Elemento, se llama con :: 
+Significa que despues de la clase, agrega "algo" y lo especificas en ""*/
+.main-nav__item a::after {
+    content: " | ";
+}

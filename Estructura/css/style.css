@@ -1,10 +1,16 @@
 img{
     max-width: 200px;
-    align-content: center;
-    border: 1;
-    border-color: brown;
+    align-items: center;
+    /* borde redondeado */
+    border-radius: 15px;
+
 }
 figcaption{
     color: blue;
     font-size: medium;
+    margin-bottom: 10px;
+}
+
+section{
+    display: flex;
 }
