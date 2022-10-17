@@ -1,7 +1,18 @@
-/* General sibling, como llamarlo
-Significa, aplicale esta regla a toda etiqueta que este en la misma
-linea, como hermanos h2*/
-h2 ~ p {
-    color: red;
+/* hijo y Descendiente, como llamarlo
+
+/* De el padre div, que sea mayor que una etiqueta parrafo (hijo directo) */
+div > p {
+color: red;
 }
+
+
+/* Descendiente, se escribe sin el signo > 
+a todas las etiquetas que esten dentro de un div*/
+div p {
+    color: blue;
+}
+
+/* .nav a{
+
+} */
 
