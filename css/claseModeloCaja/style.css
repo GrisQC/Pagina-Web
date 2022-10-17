@@ -1,0 +1,14 @@
+/* como borrar los estilos por defecto del navegador */
+* {
+    /* Suma el padding con el with del elemento, no sirve para el margin */
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    width: 100%;
+    height: 500px;
+    /* Solid, lo hace visible */
+    border: 10px solid burlywood;
+    padding: 20px 35px;
+}
