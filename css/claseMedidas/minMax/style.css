@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+section {
+    /* ocupa 80% del ancho de la pagina */
+    width: 80%;
+    min-width: 320px;
+    /* Es una forma de limitar los contenedores y hacerlo mas flexible */
+    max-width: 500px;
+    /* Controla la parte del height */
+    min-height: 600px;
+    /* Ocupa 500px del alto */
+    height: 500px;
+    /* Para centrar el el elemento, lo que hace es que de arriba a abajo
+    no le agrega margin, PERO de izquierda a derecha haz que se ajuste
+    de manera automatica*/
+    margin: 0 auto;
+    /* Como movemos el min/max de width
+    REGLA: se necesita un width base y casi siempre este es en %*/
+    background-color: royalblue;
+}

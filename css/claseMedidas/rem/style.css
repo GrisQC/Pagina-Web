@@ -1,3 +1,9 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
 /* REM siempre va a tener referencia al estilo que tenga la etiqueta
 root del proyecto, en este caso HTML, es decir 16px*/
 
@@ -11,7 +17,7 @@ p {
     /* Se le asigna el valor 16px, que es el valor por defecto de HTML */
 }
 
-/* Que hacer con textos anidados */
+/* Que hacer con textos anidados? el valor no se modifica */
 main div {
     font-size: 1.6rem;
 }
