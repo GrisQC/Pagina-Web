@@ -1,0 +1,17 @@
+/* REM siempre va a tener referencia al estilo que tenga la etiqueta
+root del proyecto, en este caso HTML, es decir 16px*/
+
+/* Para evitar calculos exagerados, lo que se puede hacer es modificar el
+valor del tama;o de fuente por defecto del HTML, de la siguiente manera */
+html{
+    font-size: 62.5%;
+}
+p {
+    font-size: 1.6rem;
+    /* Se le asigna el valor 16px, que es el valor por defecto de HTML */
+}
+
+/* Que hacer con textos anidados */
+main div {
+    font-size: 1.6rem;
+}
