@@ -14,21 +14,11 @@ main {
     
 }
 
-img{
+.content-box.content-box__image{
+    text-align: center;
     max-width: 200px;
     /* align-items: center; */
     /* borde redondeado */
     border-radius: 15px;
 
-}
-figcaption{
-    color: blue;
-    font-size: medium;
-    margin-bottom: 1 rem;
-}
-figure{
-    margin: 0 auto;
-}
-section{
-    margin: 0 auto;
 }
