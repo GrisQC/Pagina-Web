@@ -1,0 +1,13 @@
+/* EM, es un acronimo de elemento, es decir, toma el tama;o de fuente
+del padre directo */
+/* html tiene por defecto 16px, en ese caso un em seria de 16px */
+body{
+    font-size: 20px;
+}
+.text-container{
+    font-size: 1.5em;
+}
+
+.text-container div {
+    font-size: 1.5em;
+}
