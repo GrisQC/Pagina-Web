@@ -1,0 +1,27 @@
+html {
+    font-size: 62.5%;
+}
+
+.block-element {
+    background-color: green;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.nav {
+    background-color: peachpuff;
+    padding: 2rem;
+    list-style: none;
+    text-align: center;
+}
+.nav li {
+    /* lo mejor de ambos, ya que OCUPA TODO EL WIDTH, sin embargo cada 
+    elemento (li), solo ocupa el espacio requerido y da la opción de 
+    ingresar mas SI HAY ESPACIO y sino LOS BAJAN, PERMITE manipular 
+    MARGIN, PADDING, WIDTH, HEIGH */
+    display: inline-block;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

@@ -40,12 +40,12 @@ div .title-box {
     right: 20px; */
 }
 div img{
-    border-radius: 10px;
+    border-radius: 1px;
     position: relative;
     margin: auto;
     text-align: center;
     max-width: 20rem;
-    /* min-height: 30rem; */
+    min-height: 30rem;
     /* max-height: 20rem; */
 }
 /* 
